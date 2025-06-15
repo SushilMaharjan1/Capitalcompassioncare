@@ -1,0 +1,7 @@
+.careers-page ul {
+  padding-left: 1rem;
+}
+.careers-page img {
+  max-height: 350px;
+  object-fit: cover;
+}

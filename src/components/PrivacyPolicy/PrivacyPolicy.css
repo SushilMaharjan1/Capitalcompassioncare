@@ -1,0 +1,50 @@
+/* Container padding and font */
+.container {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Heading styles */
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 1.25rem;
+  margin-top: 1.5rem;
+  color: #0056b3;
+}
+
+/* Paragraph spacing */
+p {
+  margin-bottom: 1rem;
+}
+
+/* List styling */
+ul {
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+ul li {
+  margin-bottom: 0.5rem;
+}
+
+/* Highlight email or important notes */
+strong {
+  color: #333;
+}
+
+/* Responsive adjustments */
+@media (max-width: 576px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  h4 {
+    font-size: 1.1rem;
+  }
+}

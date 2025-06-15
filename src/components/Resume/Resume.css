@@ -1,0 +1,35 @@
+/* src/components/Resume/Resume.css */
+.resume-upload-wrapper {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 1rem;
+  background: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.resume-upload-wrapper h3 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.resume-upload-wrapper input[type="file"] {
+  margin: 1rem 0;
+  display: block;
+  width: 100%;
+}
+
+.resume-upload-wrapper button {
+  display: block;
+  width: 100%;
+  background-color: #007bff;
+  color: white;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.resume-upload-wrapper button:disabled {
+  background-color: #999;
+}

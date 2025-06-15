@@ -1,0 +1,4 @@
+.contacts-page textarea,
+.contacts-page input {
+  border-radius: 0.375rem;
+}

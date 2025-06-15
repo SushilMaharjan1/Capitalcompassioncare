@@ -1,0 +1,28 @@
+.scroll-down-arrow {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 2rem;
+  cursor: pointer;
+  z-index: 3;
+  color: white;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translate(-50%, 0);
+  }
+  50% {
+    transform: translate(-50%, 10px);
+  }
+}
+
+.how-it-works h5 {
+  font-weight: 600;
+  color: #003366;
+}
+.faq .accordion-button {
+  font-weight: 500;
+}
