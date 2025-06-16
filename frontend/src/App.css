@@ -1,0 +1,36 @@
+html {
+  scroll-behavior: smooth; /* ✅ enables smooth scroll for anchor links */
+}
+
+.transition-nav {
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.navbar-brand {
+  font-size: 1.25rem;
+}
+
+.navbar-nav .nav-link {
+  padding: 0.5rem 1rem;
+  transition: color 0.2s ease-in-out;
+}
+
+.navbar-nav .nav-link.active {
+  font-weight: bold;
+  color: #0d6efd;
+}
+
+@media (max-width: 991.98px) {
+  .navbar-collapse {
+    background-color: #f8f9fa;
+    padding: 1rem;
+  }
+}
+/* Make footer stick to bottom */
+html, body, #root, .App {
+  height: 100%;
+}
+
+.flex-grow-1 {
+  flex: 1;
+}

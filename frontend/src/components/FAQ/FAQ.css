@@ -1,0 +1,7 @@
+.accordion-button .icon {
+  font-size: 1.25rem;
+  transition: transform 0.3s;
+}
+.accordion-button:not(.collapsed) .icon {
+  transform: rotate(180deg);
+}

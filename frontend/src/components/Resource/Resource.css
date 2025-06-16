@@ -1,0 +1,18 @@
+.resource-card {
+  background-color: #ffffff;
+  border: 1px solid #dee2e6;
+  transition: transform 0.2s ease;
+}
+
+.resource-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.05);
+}
+
+.resource-card h5 {
+  font-weight: 600;
+}
+
+.resource-card a {
+  font-weight: 500;
+}

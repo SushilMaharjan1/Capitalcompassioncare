@@ -1,0 +1,57 @@
+:root {
+  /* Brand Colors */
+  --primary-color: #13248C;  /* Deep Blue from logo */
+  --accent-color: #1D349F;   /* Slightly lighter blue */
+  --background-light: #ffffff;
+  --text-dark: #111111;
+  --text-light: #f9f9f9;
+
+  /* Button Styling */
+  --btn-text-color: #ffffff;
+  --btn-hover-bg: #1D349F;
+}
+
+/* === GENERAL STYLES === */
+body {
+  font-family: "Segoe UI", sans-serif;
+  color: var(--text-dark);
+  background-color: var(--background-light);
+}
+
+/* === NAVBAR === */
+.navbar {
+  background-color: var(--primary-color) !important;
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link {
+  color: var(--btn-text-color);
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+  color: var(--accent-color);
+}
+
+/* === BUTTONS === */
+.btn-primary {
+  background-color: var(--primary-color);
+  color: var(--btn-text-color);
+  border: none;
+}
+.btn-primary:hover {
+  background-color: var(--btn-hover-bg);
+  color: var(--btn-text-color);
+}
+
+/* === HEADINGS === */
+h1, h2, h3, h4, h5 {
+  color: var(--primary-color);
+}
+
+/* === CAREERS / SECTION HEADINGS === */
+.careers-page h1,
+.resume h2,
+.text-primary {
+  color: var(--primary-color) !important;
+}

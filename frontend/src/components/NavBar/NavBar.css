@@ -1,0 +1,59 @@
+/* NavBar.css */
+
+/* Navbar background on desktop (white), mobile background will be overridden below */
+.transition-nav {
+  background-color: #ffffff;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Brand */
+.navbar .navbar-brand {
+  color: #f7f6fa !important;
+  font-size: 1.2rem;
+  letter-spacing: 0.5px;
+}
+
+.navbar .navbar-brand:hover {
+  color: #ffcc00 !important;
+}
+
+/* Default menu links: white text by default */
+.navbar .nav-link {
+  color: #ffffff !important;
+  margin-left: 10px;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+/* Hover and active: gold */
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+  color: #ffcc00 !important;
+}
+
+/* Toggle icon (hamburger) */
+.navbar-toggler {
+  border-color: #fff;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+/* Mobile styles (max-width = Bootstrap lg = 991px) */
+@media (max-width: 991px) {
+  .navbar-collapse {
+    background-color: #3605e4; /* Brand color for mobile */
+  }
+
+  .navbar-collapse .nav-link {
+    color: white !important;
+    padding: 10px;
+  }
+
+  .navbar-collapse .nav-link:hover,
+  .navbar-collapse .nav-link.active {
+    background-color: #2b04c2; /* Slightly darker */
+    color: #ffcc00 !important;
+  }
+}
