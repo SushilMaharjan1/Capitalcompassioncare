@@ -72,3 +72,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 =======
 # Capitalcompassioncare
 >>>>>>> 8b05bd964b78f146a92041e36c09edab393adfad
+# Capital Compassion Care
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f42688b5-0d7a-4b99-b0f6-b4cc11519a5a/deploy-status)](https://app.netlify.com/projects/capitalcompassioncare/deploys)
+
+A website for Capital Compassion Care, built with React and deployed using Netlify.
